@@ -8,6 +8,28 @@
     <link rel="icon" href="assets/logo.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        @media (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                text-align: center;
+                gap: 15px;
+            }
+            .navbar nav {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+            }
+            .stats-container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 15px;
+            }
+            .hero-text h1 { font-size: 1.8rem; }
+        }
+    </style>
 </head>
 
 <body>
@@ -60,48 +82,5 @@
                 <p>RW</p>
             </div>
             <div class="card-stat">
-                <i class="fas fa-store" style="font-size: 2rem; color: #004d40; margin-bottom: 10px;"></i>
-                <h3>88</h3>
-                <p>UMKM</p>
-            </div>
-        </section>
-
-        <section class="card-large">
-            <h2>Selamat Datang di Kecamatan Karanganom</h2>
-            <p>Selamat datang di Website Resmi Kecamatan Karanganom. Kami berkomitmen memberikan pelayanan yang cepat,
-                transparan, dan mudah diakses untuk seluruh warga Karanganom.</p>
-        </section>
-
-        <section class="card-large visi-misi-section">
-            <div class="center-content">
-                <h2>Visi</h2>
-                <p class="visi-text">"Mewujudkan Kecamatan Karanganom yang maju, sejahtera, berbudaya, dan berdaya
-                    saing."</p>
-
-                <h2>Misi</h2>
-                <ul class="misi-list" style="list-style: none; padding: 0;">
-                    <li><i class="fas fa-check-circle" style="color: #e67e22; margin-right: 10px;"></i> Meningkatkan
-                        kualitas pelayanan kepada masyarakat.</li>
-                    <li><i class="fas fa-check-circle" style="color: #e67e22; margin-right: 10px;"></i> Mendorong
-                        pembangunan yang berkelanjutan.</li>
-                    <li><i class="fas fa-check-circle" style="color: #e67e22; margin-right: 10px;"></i> Mengembangkan
-                        potensi ekonomi dan UMKM lokal.</li>
-                    <li><i class="fas fa-check-circle" style="color: #e67e22; margin-right: 10px;"></i> Melestarikan
-                        budaya dan kearifan lokal.</li>
-                    <li><i class="fas fa-check-circle" style="color: #e67e22; margin-right: 10px;"></i> Meningkatkan
-                        partisipasi masyarakat dalam pembangunan.</li>
-                </ul>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Kecamatan Karanganom. Seluruh hak cipta dilindungi.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
-</body>
-
-</html>
+                <i class="fas fa-store" style="font-size: 2rem; color: #004d40;
+                    
