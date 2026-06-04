@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeri - Kecamatan Karanganom</title>
 
-    <!-- Ikon Tab Browser -->
     <link rel="shortcut icon" href="assets/logo.png" type="image/png">
 
     <style>
@@ -54,6 +53,7 @@
         nav {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
             gap: 15px;
         }
 
@@ -62,6 +62,7 @@
             text-decoration: none;
             font-weight: 600;
             white-space: nowrap;
+            padding: 5px 0;
         }
 
         .content {
@@ -125,6 +126,7 @@
             margin-top: 40px;
         }
 
+        /* Perbaikan untuk HP agar tetap rapi */
         @media (max-width: 768px) {
             header {
                 flex-direction: column;
@@ -133,7 +135,13 @@
             }
 
             nav {
+                width: 100%;
                 justify-content: center;
+                gap: 10px;
+            }
+            
+            nav a {
+                font-size: 14px;
             }
         }
     </style>
